@@ -4,6 +4,13 @@
 
 Built using [my Vite React template](https://github.com/alex-kim-dev/vite-react-template)
 
+Check it on [github pages](https://alex-kim-dev.github.io/test-assignment-3/) or run locally:
+
+```sh
+git clone https://github.com/alex-kim-dev/test-assignment-3.git \
+  && npm i && npm start
+```
+
 ## Requirements
 
 - [x] Create a React project
