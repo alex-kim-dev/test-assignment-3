@@ -1,47 +1,13 @@
-[![Depfu](https://badges.depfu.com/badges/4b1166cf110842ec49787e0acf8f8723/overview.svg)](https://depfu.com/github/alex-kim-dev/vite-react-template?project_id=34571)
-[![CI](https://github.com/alex-kim-dev/vite-react-template/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/alex-kim-dev/vite-react-template/actions/workflows/ci.yml)
+[![CI](https://github.com/alex-kim-dev/test-assignment-3/actions/workflows/ci.yml/badge.svg)](https://github.com/alex-kim-dev/test-assignment-3/actions/workflows/ci.yml)
 
-# Vite React template
+# Test assignment 3
 
-## Features
+Built using [my Vite React template](https://github.com/alex-kim-dev/vite-react-template)
 
-- Vite
-  - html minification, EJS template
-  - import aliases
-  - importing SVGs as react components
-  - CSS / preprocessors / modules [support](https://vitejs.dev/guide/features.html#css)
-- React
-- Typescript
-- Vitest, Happy Dom, React Testing Library, test utils. In tests css processing is turned off.
-- Eslint: airbnb config, prettier integration, import & props sorting
-- Stylelint: standard config, prettier integration, css props sorting
-- Editorconfig & Prettier
-- Commitlint: conventional commits
-- pre-commit hook for linting/testing/typechecking staged files
-- CI on push & pr, in-progress workflow cancelling if a new one is queued, dependencies caching
-- pinned versions of dependencies
+## Requirements
 
-## Usage
-
-1. Click the `Use this template` button or clone locally:
-
-   ```sh
-   npx degit alex-kim-dev/vite-react-template vite-project
-   ```
-
-   Both methods will clean the git history.
-
-   _[degit](https://github.com/Rich-Harris/degit)_
-
-2. Update & install the dependencies:
-
-   ```sh
-   npx ncu -u && npm i
-   ```
-
-   _[npm-check-updates](https://github.com/raineorshine/npm-check-updates)_
-
-3. Change the name, description, author, license, links in `package.json`.
-4. Check out the available scripts in `package.json` or execute `npm run`.
-
-To add import aliases, edit `path` in `tsconfig.json`.
+- [x] Create a React project
+- [ ] Connect Font Awesome library to the project
+- [ ] Create a component that will display a button that, when clicked, will display a random icon from the library with a delay of 3 seconds
+- [ ] Each click must be handled
+- [ ] Place the component in the center of the page horizontally and vertically
