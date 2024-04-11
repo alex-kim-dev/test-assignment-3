@@ -1,3 +1,10 @@
+import css from '~/App.module.css';
+import { EmojiButton } from '~/components/EmojiButton';
+
 export const App = () => {
-  return <h1>Hello world!</h1>;
+  return (
+    <main className={css.wrapper}>
+      <EmojiButton />
+    </main>
+  );
 };

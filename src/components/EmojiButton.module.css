@@ -1,0 +1,49 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-inline-size: 12.8rem;
+  min-block-size: 12.8rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: royalblue;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0.3rem 0.5rem 0 0.2rem #17213e;
+  transition:
+    translate 100ms ease-out,
+    background-color 100ms ease-out,
+    box-shadow 100ms ease-out;
+}
+
+.button:hover {
+  background-color: #4e7bff;
+}
+
+.button:active {
+  box-shadow: none;
+  box-shadow: 0.3rem 0.5rem 0 #17213e;
+  translate: 0.2rem 0.2rem;
+}
+
+.icon {
+  color: rgb(0 0 0 / 60%);
+}
+
+.pop {
+  animation: pop 100ms ease both;
+}
+
+@keyframes pop {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}

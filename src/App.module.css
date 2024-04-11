@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 100dvh;
+  background-color: #333;
+}
